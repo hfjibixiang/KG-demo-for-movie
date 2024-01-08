@@ -1,6 +1,7 @@
 # encoding=utf-8
-from kg_demo_movie.KB_query.query_main import QAInterface
 import streamlit as st
+
+from kg_demo_movie.KB_query.query_main import QAInterface
 
 
 @st.cache(allow_output_mutation=True)

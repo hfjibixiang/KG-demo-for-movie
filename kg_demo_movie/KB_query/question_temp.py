@@ -26,8 +26,9 @@
 
 读者可以自己定义其他的匹配规则。
 """
-from refo import finditer, Predicate, Star, Any, Disjunction
 import re
+
+from refo import finditer, Predicate, Star, Any, Disjunction
 
 # TODO SPARQL前缀和模板
 SPARQL_PREXIX = u"""

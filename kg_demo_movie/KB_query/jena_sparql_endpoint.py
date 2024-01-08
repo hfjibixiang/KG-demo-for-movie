@@ -14,8 +14,9 @@
 
 """
 
-from SPARQLWrapper import SPARQLWrapper, JSON
 from collections import OrderedDict
+
+from SPARQLWrapper import SPARQLWrapper, JSON
 
 
 class JenaFuseki:

@@ -13,8 +13,9 @@
 @desc:main函数，整合整个处理流程。
 
 """
-from kg_demo_movie.KB_query import jena_sparql_endpoint, question2sparql
 import os
+
+from kg_demo_movie.KB_query import jena_sparql_endpoint, question2sparql
 
 file_path = os.path.split(os.path.realpath(__file__))[0]
 

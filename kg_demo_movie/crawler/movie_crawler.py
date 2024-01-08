@@ -16,12 +16,14 @@
 
 """
 
-import requests
 import json
-from kg_demo_movie.crawler.tradition2simple import traditional2simple
 import re
-import pymysql
 import time
+
+import pymysql
+import requests
+
+from kg_demo_movie.crawler.tradition2simple import traditional2simple
 
 api_key = 'your_api_key'
 person_detail_url = 'https://api.themoviedb.org/3/person/{person_id}?api_key={api_key}&language=zh-cn'
